@@ -1,12 +1,12 @@
 import express from 'express';
-import { ForgetPasswordController } from '../../controller/signIn/ForgetPasswordController';
-import * as security from '../../Security/ForgetPassword/index';
+import { ForgetPasswordController } from '../../controller/auth/ForgetPassword';
+import * as security from '../../Security/SignIn/ForgetPassword/index';
 
 
 export const forgetPasswordRoute = express.Router();
 const forgetPasswordController = new ForgetPasswordController();
 
-// === Routes === //
+// Routes 
 
 forgetPasswordRoute.post('/sendverifycode', [
     new security.ForgetPasswordSendOTPSecurity().checkPoint(),

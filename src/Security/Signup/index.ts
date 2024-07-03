@@ -1,6 +1,6 @@
-import { SignUpSendVeridyCodeSecurity } from "./sendVerifyCodeSecurity";
-import { SignupVerifyCodeSecurity } from "./verifyCodeSecurity";
-import { SignUpSecurity } from "./SignupSecurity";
+import { SignUpSendVeridyCodeSecurity } from "./sendVerifyCode_Security";
+import { SignupVerifyCodeSecurity } from "./verifyCode_Security";
+import { SignUpSecurity } from "./signup_Security";
 
 export {
     SignUpSecurity,

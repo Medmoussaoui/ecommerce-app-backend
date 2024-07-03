@@ -12,6 +12,7 @@ export interface HandlingExit {
     customErrorMessage?: string,
     deepErrorMessage?: string,
     data?: any
+    
 }
 
 export function handlingPossibilityError(options: OptionsHandlingPossibilityError): HandlingExit {

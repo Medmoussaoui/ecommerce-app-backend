@@ -1,0 +1,8 @@
+{
+    "db": {
+        "database": "ecommerce",
+        "user": "remote_db_use_here",
+        "password": "remote_db_password_here",
+        "host": "remote_db_host_here"
+    }
+}
